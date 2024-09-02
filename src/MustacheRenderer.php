@@ -31,7 +31,7 @@ class MustacheRenderer extends AbstractRenderer
      *
      * @since   2.0.0
      */
-    public function __construct(\Mustache_Engine $renderer = null)
+    public function __construct(?\Mustache_Engine $renderer = null)
     {
         $this->renderer = $renderer ?: new \Mustache_Engine();
     }

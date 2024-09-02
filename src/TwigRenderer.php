@@ -36,7 +36,7 @@ class TwigRenderer extends AbstractRenderer implements AddTemplateFolderInterfac
      *
      * @since   2.0.0
      */
-    public function __construct(Environment $renderer = null)
+    public function __construct(?Environment $renderer = null)
     {
         $this->renderer = $renderer ?: new Environment(new FilesystemLoader());
     }

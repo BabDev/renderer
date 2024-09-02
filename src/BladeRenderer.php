@@ -40,7 +40,7 @@ class BladeRenderer extends AbstractRenderer implements AddTemplateFolderInterfa
      *
      * @since   2.0.0
      */
-    public function __construct(Factory $renderer = null)
+    public function __construct(?Factory $renderer = null)
     {
         if (!$renderer) {
             $filesystem = new Filesystem();
