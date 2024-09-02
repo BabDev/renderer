@@ -1,4 +1,4 @@
-# The Renderer Package [![Build Status](https://ci.joomla.org/api/badges/joomla-framework/renderer/status.svg?ref=refs/heads/2.0-dev)](https://ci.joomla.org/joomla-framework/renderer)
+# The Renderer Package [![Build Status](https://ci.joomla.org/api/badges/joomla-framework/renderer/status.svg?ref=refs/heads/3.x-dev)](https://ci.joomla.org/joomla-framework/renderer)
 
 [![Latest Stable Version](https://poser.pugx.org/joomla/renderer/v/stable)](https://packagist.org/packages/joomla/renderer)
 [![Total Downloads](https://poser.pugx.org/joomla/renderer/downloads)](https://packagist.org/packages/joomla/renderer)
@@ -394,5 +394,5 @@ class DashboardHtmlView extends AbstractHtmlView
 You can simply run the following from the command line:
 
 ```sh
-composer require joomla/renderer "~2.0"
+composer require joomla/renderer "~3.0"
 ```
