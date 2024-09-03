@@ -33,7 +33,7 @@ class PlatesRenderer extends AbstractRenderer implements AddTemplateFolderInterf
      *
      * @since   2.0.0
      */
-    public function __construct(Engine $renderer = null)
+    public function __construct(?Engine $renderer = null)
     {
         $this->renderer = $renderer ?: new Engine();
     }
